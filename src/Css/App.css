@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: shabnamBold;
+    src: url('../Fonts/shabnam/Shabnam-Bold.eot');
+    src: url('../Fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+    url('../Fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+    url('../Fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+    font-display:swap ;
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url('../Fonts/shabnam/Shabnam.eot');
+    src: url('../Fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/shabnam/Shabnam.woff') format('woff'),
+    url('../Fonts/shabnam/Shabnam.woff2') format('woff2'),
+    url('../Fonts/shabnam/Shabnam.ttf') format('truetype');
+    font-display:swap ;
+}
+
+@font-face {
+    font-family:yekan;
+    src: url('../Fonts/yekan/yekan-regular.eot');
+    src: url('../Fonts/yekan/yekan-regular.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/yekan/yekan-regular.woff') format('woff'),
+    url('../Fonts/yekan/yekan-regular.ttf') format('truetype');
+    font-display:swap ;
+}
+
+body{
+    direction: rtl;
+    font-size: 15px;
+    font-family: shabnam,'yekan', serif ;
+}
+
+h2{
+    font-family: shabnamBold, 'yekan', 'shabnam', serif ;
+}
